@@ -6,3 +6,17 @@ body {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+label {
+  display: block;
+}
+
+img {
+  width: 45px;
+  height: 45px;
+}
+
+.cor {
+  width: 45px;
+  height: 45px;
+}

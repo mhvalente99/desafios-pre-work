@@ -8,5 +8,34 @@
   </head>
   <body>
     <script type="module" src="/main.js"></script>
+    <form data-js="form-car">
+      <p>Cadastro de Carro</p>
+      <label for="image">URL Imagem</label>
+      <input type="url" name="image" id="image">
+      <br>
+      <label for="model">Modelo</label>
+      <input type="text" name="model" id="model">
+      <br>
+      <label for="year">Ano</label>
+      <input type="number" name="year" id="year">
+      <br>
+      <label for="licensePlate">Placa</label>
+      <input type="text" name="licensePlate" id="licensePlate">
+      <br>
+      <label for="color">Cor</label>
+      <input type="color" name="color" id="color">
+      <br>
+      <br>
+      <button type="submit">Salvar</button>
+    </form>
+    <table data-js="table" border="1">
+      <tr>
+        <th>Imagem</th>
+        <th>Modelo</th>
+        <th>Ano</th>
+        <th>Placa</th>
+        <th>Cor</th>
+      </tr>
+    </table>
   </body>
 </html>
